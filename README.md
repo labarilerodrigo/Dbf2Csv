@@ -40,7 +40,7 @@ optional arguments:
 
 + Command
 ```
-[br9dusr@cdts99hdbe07d alejandro]$ python3.6 lbdeclient -u "https://postman-echo.com/headers" -m get  -H 'Cache-Control: no-cache' -H 'Content-Type: application/json' request
+[br9dusr@cdts99hdbe07d rlabarile]$ python3.6 lbdeclient -u "https://postman-echo.com/headers" -m get  -H 'Cache-Control: no-cache' -H 'Content-Type: application/json' request
 ```
 + Output:
 ```
@@ -65,7 +65,7 @@ query -i usdhdpimpala.rxcorp.com:21050 -d devl_br9 \
 
 + Command
 ```
-[br9dusr@cdts99hdbe07d alejandro]$ python3.6 lbdeclient -u "https://postman-echo.com/post" -m post -H 'Cache-Control: no-cache' -H 'Content-Type: application/json' request -f template_body.json
+[br9dusr@cdts99hdbe07d rlabarile]$ python3.6 lbdeclient -u "https://postman-echo.com/post" -m post -H 'Cache-Control: no-cache' -H 'Content-Type: application/json' request -f template_body.json
 2021-03-19 13:10:30,735 [PID 60875] [INFO ] - lbdeclient - 429  parsing file template_body.json
 ```
 
